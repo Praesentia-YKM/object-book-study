@@ -1,4 +1,4 @@
-package com.book.object.week1.book;
+package com.book.object.week1.book.chap1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
