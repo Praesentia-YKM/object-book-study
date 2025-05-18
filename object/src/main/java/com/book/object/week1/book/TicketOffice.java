@@ -18,6 +18,11 @@ public class TicketOffice {
         this.tickets.addAll(Arrays.asList(tickets));
     }
 
+    // 관객에게 티켓을 판매하고 이윤을 더하는 책임은 티켓오피스다.
+    public void sellTicketTo(Audience audience) {
+        plusAmount(audience.buy(getTicket()));
+    }
+
     // 제일 앞 티켓부터 하나씩 판매
     public Ticket getTicket() {
         return tickets.remove(0);

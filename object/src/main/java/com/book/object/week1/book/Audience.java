@@ -13,7 +13,16 @@ public class Audience {
         this.bag = bag;
     }
 
-    public Bag getBag() {
-        return bag;
+//    public Bag getBag() {
+//        return bag;
+//    }
+
+    /* 티켓을 구매하는 행위는 극장이 아닌 관객의 책임이다.
+       판매원이 가방을 강제로 꺼내서 초대장이 있는지 없는지 확인하는 것이 아닌,
+       관객이 직접 자기 가방에서 초대장 유무를 확인하여 구매를 하는 것
+       -> 캡슐화
+     */
+    public Long buy(Ticket ticket) {
+        return bag.hold(ticket);
     }
 }
