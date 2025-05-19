@@ -1,4 +1,4 @@
-package com.book.object.week1.book;
+package com.book.object.week1.book.chap1;
 
 /**
  * 멤버변수를 보면 떠오르는 것:

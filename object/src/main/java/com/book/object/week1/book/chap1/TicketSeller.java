@@ -1,4 +1,4 @@
-package com.book.object.week1.book;
+package com.book.object.week1.book.chap1;
 
 /**
  * 판매원은 자기가 일하는 매표소를 알고있어야 한다.

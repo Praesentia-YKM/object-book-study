@@ -1,4 +1,4 @@
-package com.book.object.week1.book;
+package com.book.object.week1.book.chap1;
 
 /**
  * 관객은 무조건 가방을 필요로 한다.
